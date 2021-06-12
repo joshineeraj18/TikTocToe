@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:text="TicTocToe"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/btn_1"
+                android:layout_margin="5dp"
+                tools:text="X"
+                android:textSize="55sp"
+                android:textStyle="bold"
+                android:background="@android:color/holo_blue_light" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/btn_2"
+                android:layout_margin="5dp"
+                tools:text="O"
+                android:textSize="55sp"
+                android:textStyle="bold"
+                android:background="@android:color/holo_blue_light" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/btn_3"
+                android:layout_margin="5dp"
+                tools:text="O"
+                android:textSize="55sp"
+                android:textStyle="bold"
+                android:background="@android:color/holo_blue_light" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/btn_4"
+                android:layout_margin="5dp"
+                tools:text="O"
+                android:textSize="55sp"
+                android:textStyle="bold"
+                android:background="@android:color/holo_blue_light" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/btn_5"
+                android:layout_margin="5dp"
+                tools:text="X"
+                android:textSize="55sp"
+                android:textStyle="bold"
+                android:background="@android:color/holo_blue_light" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/btn_6"
+                android:layout_margin="5dp"
+                tools:text="O"
+                android:textSize="55sp"
+                android:textStyle="bold"
+                android:background="@android:color/holo_blue_light" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/btn_7"
+                android:layout_margin="5dp"
+                tools:text="X"
+                android:textSize="55sp"
+                android:textStyle="bold"
+                android:background="@android:color/holo_blue_light" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/btn_8"
+                android:layout_margin="5dp"
+                tools:text="O"
+                android:textSize="55sp"
+                android:textStyle="bold"
+                android:background="@android:color/holo_blue_light" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/btn_9"
+                android:layout_margin="5dp"
+                tools:text="X"
+                android:textSize="55sp"
+                android:textStyle="bold"
+                android:background="@android:color/holo_blue_light" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
